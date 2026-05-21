@@ -15,7 +15,7 @@
     {
       "item": "",
       "target_index": 
-    }  
+    }, 
   ],
   "_comment": "If \"labels\" is omitted, will use the options themselves as responses (recommended only if the category names are single words). Under \"examples\", \"target_index\" is always the integer index of the correct choice in the list, 0-based."
 }
