@@ -1,7 +1,7 @@
 {
   "mode": "categorical",
   "chat": false,
-  "system_prompt": "U# Main topic\n\nYou are a professional text coder of TikTok video transcripts about news, politics & societal issues. Your task is to determine whether the given transcript contains group signaling rehtoric, better known as Alienation, or whether it contains some other type of language.\nfollow the category definitions below strictly.\n\n{categories}",
+  "system_prompt": "# Main topic\n\nYou are a professional text coder of TikTok video transcripts about news, politics & societal issues. Your task is to determine whether the given transcript contains group signaling rehtoric, better known as Alienation, or whether it contains some other type of language.\nfollow the category definitions below strictly.\n\n{categories}",
   "prompt_format": "## Example {n}.\n\nTranscript: {item}\n\nThis transcript fits best in category{label_hint}:",
   "labels": [
     "A",
