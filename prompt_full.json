@@ -1,0 +1,21 @@
+{
+  "mode": "categorical",
+  "chat": false,
+  "system_prompt": "U# Main topic\n\nYou are a professional text coder of TikTok video transcripts about news, politics & societal issues. Your task is to determine whether the given transcript contains group signaling rehtoric, better known as Alienation, or whether it contains some other type of language.\nfollow the category definitions below strictly.\n\n{categories}",
+  "prompt_format": "## Example {n}.\n\nTranscript: {item}\n\nThis transcript fits best in category{label_hint}:",
+  "labels": [
+    "A",
+    "B"
+  ],
+  "categories": {
+    "Alienation": "Alienates or implies that another individual or group doesn't belong or fit in, uses us vs. them framing",
+    "Other": "The transcript does not contain rhetoric to do with Alienation"
+  },
+  "examples": [
+    {
+      "item": "",
+      "target_index": 
+    }  
+  ],
+  "_comment": "If \"labels\" is omitted, will use the options themselves as responses (recommended only if the category names are single words). Under \"examples\", \"target_index\" is always the integer index of the correct choice in the list, 0-based."
+}
